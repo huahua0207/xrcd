@@ -1,0 +1,1066 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>车辆详情页</title>
+		<link rel="stylesheet" href="css/assessor.css">
+		<link rel="stylesheet" href="css/iconfont.css">
+		<link rel="stylesheet" href="css/car_list.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/assessor.js"></script>
+	</head>
+	<body>
+		<!--头部开始-->
+	<div class="qan_header">
+		<div class="qan_header-inner">
+			<div class="qan_header-inner-left">
+				 <a href="#" class="hot">登录</a>
+				 <span>|</span>
+				 <a href="#">注册</a>
+				 <span>|</span>
+				 <i class="icon iconfont phone">&#xe63c;</i>
+				 <a href="#">
+				 	
+				 	  手机版爱车网
+				 </a>
+				 
+			</div>
+			<div class="qan_header-inner-right">
+				 <a href="#" class="hot">我要买车</a>
+				 <span>|</span>
+				 
+				 <a href="#">我要卖车</a>
+				 <span>|</span>
+				 <a href="#">我要抵押车</a>
+				 <span>|</span>
+				 <a href="#">平台导航</a>
+			</div>
+		</div>
+	</div>
+	<!--头部开始-->
+	<!--搜索开始-->
+	  <div class="search-box">
+			<div class="logo">
+				<a href="#" class="logo">
+					 <img src="img/logo.gif" alt="">
+				</a>
+			</div>
+			<div class="logo-text">
+				  <span>北京信融二手车</span>
+				  <!-- <em>这里是口号</em> -->
+				  <a href="#">www.xinrongche.cn</a>
+			</div>
+			<div class="slogan">
+				  <img src="img/kouhao.png" alt="">
+			</div>
+			<div class="search">
+				<div class="search-select">
+					  <a href="#" class="lll">新车
+					  	
+					  </a>
+					  <i class="icon iconfont rjt">&#xe624;</i>
+					  <div class="search-select-list">
+					  	  <a href="#" url="www.baidu.com">旧车</a>
+
+						  <a href="#" url="www.taobao.com">二手车</a>
+						  <a href="#" url="www.music.baidu.com">等等</a>
+					  </div>
+					  
+				</div>
+				 <form action=""  method="post" id="search-all">
+				 	  <input type="text" value="输入关键字进行搜索" name="keywords" class="keywords">
+				 	  <input type="submit" value="搜索" class="submit">
+				 </form>
+				 <div class="hot-search">
+				 	热门搜索：
+				 	<a href="#">大众</a>
+				 	<a href="#">宝马</a>
+				 	<a href="#">路虎</a>
+				 	<a href="#">奥迪</a>
+				 </div>
+			</div>
+	  	    
+	  </div>
+	<!--搜索结束-->
+	<!--导航栏开始-->
+	<div class="nav-out">
+		<div class="nav">
+			<div class="nav-left">
+				
+				<a href="#" class="hot">首页</a>
+				<div class="buycar">
+					<a href="#" class="active">买车
+						<img src="img/topJT.png">
+						<!--<i class="icon iconfont">&#xe611;</i>-->
+					</a>
+					<div class="buycar-list">
+						<a href="#">买车1
+
+						</a>
+						<a href="#">买车2
+
+						</a>
+						<a href="#">买车3
+
+						</a>
+					</div>
+					
+				</div>
+				<div class="buycar">
+					<a href="#" class="active">买车
+						<img src="img/downJT.png">
+						<!--<i class="icon iconfont">&#xe624;</i>-->
+					</a>
+					<div class="buycar-list">
+						<a href="#">卖车1
+
+						</a>
+						<a href="#">卖车2
+
+						</a>
+						<a href="#">卖车3
+
+						</a>
+					</div>
+				</div>
+				
+				<a href="#" class="ml37">特惠专区</a>
+				<a href="#" >金融服务</a>
+				<a href="#">门店</a>
+			</div>
+			<div class="nav-right">
+				 
+				 	  <i class="icon iconfont telicon">
+				 	  	&#xe628;
+				 	  </i>
+				 	  <div class="tel-right">
+							<a href="tel:400-xxx-xxx" class="tel">
+							400-111-xxx
+							</a>
+
+							<div >工作时间：9：00-21:00</div>
+				 	  </div>
+				 	  <a class="qqcon">
+				 	  	   <img src="img/qq.png" alt="">
+				 	  </a>
+				 	  <span class="QQconstract">QQ交谈</span>
+				 	  
+				 
+				
+			</div>
+			
+		</div>
+	</div>
+	<!--导航栏结束-->
+	<!--面包线开始-->
+	<div class="bread-line">
+		<a href="#">首页</a>
+		<span>>></span>
+		<a href="#">买车</a>
+		<span>>></span>
+		<a href="#" class="article">大众途观2016款豪华版2.0T
+
+</a>
+	</div>
+	<!--面包线结束-->
+	<!--车辆信息展示图开始-->
+	<div class="showcar-img">
+		<div class="showcar-img-l">
+			  <div class="showcar-img-l-big">
+			  	   <img src="img/showcar.jpg" alt="">
+			  </div>
+			  <div class="showcar-img-l-small">
+			  	 
+			  	 	 <a href="javascript:;" class="showcar-img-btn">
+			  	 	 	<i class="icon iconfont leftBtn">&#xe71b;</i>
+			  	 	 </a>
+			  	 	 <a href="javascript:;" class="showcar-img-btn">
+			  	 	 	<i class="icon iconfont rightBtn">&#xe603;</i>
+			  	 	 </a>
+			  	 
+			  	 <div class="showcar-img-l-small-list">
+			  	 	 <div class="showcar-img-l-small-list-over">
+			  	 	  <a href="javascript:;">
+			  	 	  	 <img src="img/showcar.jpg" alt="" class="active">
+			  	 	  </a>
+			  	 	  <a href="javascript:;">
+			  	 	  	 <img src="img/showcar-s.jpg" alt="">
+			  	 	  </a>
+			  	 	  <a href="javascript:;">
+			  	 	  	 <img src="img/showcar.jpg" alt="">
+			  	 	  </a>
+			  	 	  <a href="javascript:;">
+			  	 	  	 <img src="img/showcar.jpg" alt="">
+			  	 	  </a>
+			  	 	   <a href="javascript:;">
+			  	 	  	 <img src="img/showcar.jpg" alt="">
+			  	 	   </a> 
+			  	   </div>
+			  	 </div>
+			  </div>
+		</div>
+		<div class="showcar-img-r">
+			  <div class="carmsg-list">
+			  	<div style="overflow: hidden;">
+			  		<h3>大众Eos(进口)</h3>
+			  	  	<span><i>车源ID：</i>279527</span>
+			  	</div>
+			  	  
+			  	  <a href="#" class="showcar-img-r-car-title">2011款2.0T自动硬顶敞篷(2011年上市)</a>
+			  </div>
+			  <div class="carmsg-list">
+			  	    <div class="carmsg-list-item
+			  	     ">
+			  	    	  <div class="carmsg-list-price">
+			  	    	  	 一口价：
+			  	    	  	 <span class="car_price">¥22.48</span>万
+			  	    	  </div>
+			  	    	  <div class="carmsg-list-price-b">
+			  	    	  	 
+			  	    	  	 新车购入价：59.56万（含36736元购置税）
+
+			  	    	  </div>
+			  	    	  <div class="carmsg-list-price-a">为您节省27.36万元</div>
+			  	    </div>
+			  	    <div class="line-right"></div>
+			  	    <div class="carmsg-list-item">
+			  	    	<div class="fz_12 margint15">车王分期付款方案</div>
+			  	    	<a href="#" class="fz_22">0首付,月供4967.89元起</a>
+			  	    	<div class="fz_12">此方案只针对经审核后确定资质合格的客户</div>
+			  	    	<a href="#" class="more_link">点击查看详情</a>
+			  	    </div>
+
+			  </div>
+			  <div class="showcar-table">
+			  	  <ul>
+			  	    <li>
+			  	    	 <div>上牌时间</div>
+			  	    	 <div class="table-con">2013年1月</div>
+			  	    </li>
+			  	    <li>
+			  	    	 <div>上牌时间</div>
+			  	    	 <div class="table-con">22.58万公里</div>
+			  	    </li>
+			  	    <li>
+			  	    	 <div>排量</div>
+			  	    	 <div class="table-con">2.0L</div>
+			  	    </li>
+			  	    <li>
+			  	    	 <div>排放标准</div>
+			  	    	 <div class="table-con">国4</div>
+			  	    </li>
+			  	    <li>
+			  	    	 <div>拍照属地</div>
+			  	    	 <div class="table-con">浙A</div>
+			  	    </li>
+			  	    <li>
+			  	    	 <div>所在地</div>
+			  	    	 <div class="table-con"> 杭州市-杭州1号店</div>
+			  	    </li>
+			  	  </ul>
+			  </div>
+			  <div class="after-contact">
+			  	  <i class="icon iconfont telicon">
+				 	  	&#xe628;
+				  </i>
+				  <a href="tel:400-1235-235" class="tel-line">
+							400-1235-235
+				  </a>
+				  <div class="after-contact-list">
+				  	  <i class="icon iconfont">&#xe632;</i>
+				  	  <span>24小时救援</span>
+				  </div>
+				  <div class="after-contact-list">
+				  	  <i class="icon iconfont">&#xe606;</i>
+				  	  <span>7天可退换</span>
+				  </div>
+				  <div class="after-contact-list">
+				  	  <i class="icon iconfont">&#xe61b;</i>
+				  	  <span>信用按揭</span>
+				  </div>
+			  </div>
+			  <div class="car_btn_groups">
+			  	  <button class="rob">立即抢订</button>
+			  	  <button>加入对比</button>
+			  	  <button>收藏</button>
+			  	  <span>已有831关注次车</span>
+			  </div>
+
+		</div>
+	</div>
+	<!--车辆信息展示图结束-->
+	<div class="bgf2 height32"></div>
+	<!--车辆配置表开始-->
+	<div class="configuration-table">
+		<h3>大众Eos(进口)2011款2.0T自动硬顶敞篷</h3>
+		<div class="configuration-table-box">
+			<div class="configuration-table-box-item">
+				 <ul class="car-table-box-item-one">
+					<li>
+						 <div>上牌时间</div>
+						 <div class="car-date-time">2013年01月</div>
+					</li>
+					<li>
+						 <div>年检时间</div>
+						 <div class="car-date-time">2013年01月09月</div>
+					</li>
+					<li class="repurchase-price">
+						 <div>回购价格</div>
+						 <div class="car-date-time">
+					一年回购价¥17万元
+						  <a href="#" class="buyback-discoration">(什么是车辆回购)</a>
+					    </div>
+					</li>
+				</ul>
+			
+			</div>	   	 
+			<div class="configuration-table-box-item">
+				 <ul class="car-table-box-item-one car-table-box-item-two">
+					<li>
+						 <div>车型概况</div>
+						 <div class="car-date-time">排量：2.0L</div>
+					</li>
+					<li>
+						
+						 <div class="car-date-time">变速箱：双离合</div>
+					</li>
+					<li>
+						
+						 <div class="car-date-time">车身颜色：紫色</div>
+					</li>
+					<li class="repurchase-price">
+						
+						 <div class="car-date-time">车身颜色：黑色</div>
+					</li>
+					
+				</ul>
+			
+			</div>	   
+			<div class="configuration-table-box-item car-accessories">
+				 <span>电动车窗</span>
+				 <span>电动后视镜</span>
+				 <span>电动天窗</span>
+				 <span>自动空调</span>
+				 <span>自动大灯</span>
+				 <span>多功能方向盘</span>
+				 <div><em class="need">*</em>以上配置 仅供参考，实际以实车为主</div>
+				
+			</div>	
+			<div class="configuration-table-box-item car-accessories car-descoraption">
+				 
+				 <div><em class="need">*</em>车辆描述</div>
+				 <p>车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述车辆描述</p>
+				
+			</div>	
+			
+		</div>
+	</div>
+	<!--车辆配置表结束-->
+	<!--车辆认证报告开始-->
+	<div class="configuration-table car-report">
+		<h3>车辆认证报告</h3>
+		<div class="check-people">质检专员：
+			<span>陈伟</span>
+			质检对象：
+			<span>大众Eos（进口）2011款</span>
+			
+		</div>
+		<!--结构性损伤测试开始-->
+		<div class="car-report-tit">
+			结构性损伤测试
+			<span>非火烧车、水泡车、车架异常车辆</span>
+		</div>
+		<div class="img-discoraption">
+			<span>图示说明:</span>
+		     结构性损伤检测分车身右侧车架和车身左侧车架
+		</div>
+		<div class="car-lr-img">
+		<!--右侧开始-->
+		
+			<div class="car-right-img car-show-coordinate-img">
+			<div class="coordinate-parts-one coordinate-parts">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">
+					
+				</div>
+				<div class="coordinate-parts-line-x">
+					
+				</div>
+			</div>
+			
+			<div class="coordinate-parts-two coordinate-parts">
+				<i class="icon iconfont">&#xe60d;</i>
+				
+				<div class="coordinate-parts-line-x">
+					
+				</div>
+			</div>
+			<div class="coordinate-parts-three coordinate-parts">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-x">
+					
+				</div>
+			</div>
+			<div class="coordinate-parts-four coordinate-parts">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-x">
+					
+				</div>
+			</div>
+			<div class="coordinate-parts-five coordinate-parts">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">
+					
+				</div>
+				<div class="coordinate-parts-line-x">
+					
+				</div>
+			</div>
+			
+		   <div class="coordinate-parts-text coordinate-parts-text-one">
+				<span>右后翼子板内衬板</span>
+				<i class="icon iconfont">&#xe601;</i>
+			</div>	
+			<div class="coordinate-parts-text coordinate-parts-text-two">
+				<span>右C柱</span>
+				<i class="icon iconfont">&#xe601;</i>
+			</div>
+			<div class="coordinate-parts-text coordinate-parts-text-three">
+				<span>右B柱</span>
+				<i class="icon iconfont">&#xe601;</i>
+			</div>
+			<div class="coordinate-parts-text coordinate-parts-text-four">
+				<span>左A柱</span>
+				<i class="icon iconfont">&#xe601;</i>
+			</div>
+			<div class="coordinate-parts-text coordinate-parts-text-five">
+				<span>右前翼子板内衬版、边梁</span>
+				<i class="icon iconfont">&#xe601;</i>
+				
+			</div>
+		</div>
+		<!--右侧结束-->
+		<!--左侧开始-->
+			<div class="car-left-img car-show-coordinate-img">
+			<div class="coordinate-parts-one coordinate-parts">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">
+					
+				</div>
+				<div class="coordinate-parts-line-x">
+					
+				</div>
+			</div>
+			
+			<div class="coordinate-parts-two coordinate-parts">
+				<i class="icon iconfont">&#xe60d;</i>
+				
+				<div class="coordinate-parts-line-y">
+					
+				</div>
+				<div class="coordinate-parts-line-x">
+					
+				</div>
+			</div>
+			<div class="coordinate-parts-three coordinate-parts">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">
+					
+				</div>
+				<div class="coordinate-parts-line-x">
+					
+				</div>
+			</div>
+			<div class="coordinate-parts-four coordinate-parts">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">
+					
+				</div>
+				<div class="coordinate-parts-line-x">
+					
+				</div>
+			</div>
+			<div class="coordinate-parts-five coordinate-parts">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">
+					
+				</div>
+				<div class="coordinate-parts-line-x">
+					
+				</div>
+			</div>
+			
+		   <div class="coordinate-parts-text coordinate-parts-text-one">
+				<span>右后翼子板内衬板</span>
+				<i class="icon iconfont">&#xe601;</i>
+			</div>	
+			<div class="coordinate-parts-text coordinate-parts-text-two">
+				<span>右C柱</span>
+				<i class="icon iconfont">&#xe601;</i>
+			</div>
+			<div class="coordinate-parts-text coordinate-parts-text-three">
+				<span>右B柱</span>
+				<i class="icon iconfont">&#xe601;</i>
+			</div>
+			<div class="coordinate-parts-text coordinate-parts-text-four">
+				<span>左A柱</span>
+				<i class="icon iconfont">&#xe601;</i>
+			</div>
+			<div class="coordinate-parts-text coordinate-parts-text-five">
+				<span>右前翼子板内衬版、边梁</span>
+				<i class="icon iconfont">&#xe601;</i>
+				
+			</div>
+		</div>
+		<!--左侧结束-->
+			<div class="car-right-img-btn">
+				<a href="javascript:;" class="left-btn  btn-active">车身左侧车架</a>
+				<a href="javascript:;" class="right-btn">车身右侧车架</a>
+		   </div>
+	   </div>
+	   <!--结构性损伤测试结束-->
+	   <!--车身外观监测开始-->
+		<div class="car-report-tit">
+		车身外观监测
+			<span>车身外观无明显瑕疵，无钣金修复</span>
+		</div>
+		<div class="img-discoraption">
+			<span>图示说明:</span>
+			<em class="orange"></em>
+		    <span>橙色，表示有瑕疵</span>
+		    <em class="blue"></em>
+		    <span>蓝色，表示钣金修复</span>
+		</div>
+		<div class="car-lr-img body-appearance">
+			 <table class="car-covering-parts" cellpadding="0" cellspacing="0">
+			 	<caption>车身覆盖件</caption>
+			 	<thead>
+				 	 <tr>
+				 	 	<th>检测项</th>
+				 	 	<th>检测结果</th>
+				 	 	<th>检测项</th>
+				 	 	<th>检测结果</th>
+				 	 </tr>
+			 	 </thead>
+			 	 <tbody>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	  
+			 	 </tbody>
+			 </table>
+		</div>
+		<!--车身外观监测结束-->
+		<!--电器设备检测开始-->
+		<div class="car-report-tit">
+		电器设备检测
+			<span>安全系统，电子设备无异常，可正常使用</span>
+		</div>
+		<div class="img-discoraption">
+			<span>图示说明:</span>
+			
+		    <span>PASS表示正常，<i class="orange">！</i>橙色感叹号表示故障，<b>—</b>表示无此配置</span>
+		    
+		</div>
+		<div class="car-lr-img electrical-equipment">
+			 <table class="car-covering-parts" cellpadding="0" cellspacing="0">
+			 	<caption>车身覆盖件</caption>
+			 	<thead>
+				 	 <tr>
+				 	 	<th>检测项</th>
+				 	 	<th>检测结果</th>
+				 	 	<th>检测项</th>
+				 	 	<th>检测结果</th>
+				 	 </tr>
+			 	 </thead>
+			 	 <tbody>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	 <tr>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 	<td>前保险杠</td>
+				 	 	<td>PASS</td>
+				 	 </tr>
+				 	  
+			 	 </tbody>
+			 </table>
+		</div>
+		<!--电器设备监测结束-->
+		<!--车辆底盘测验开始-->
+		<div class="car-report-tit">
+		车辆底盘检测
+		<span>车辆底盘无异常，可以使用</span>
+		</div>
+		<div class="img-discoraption">
+			<span>图示说明:</span>
+			
+		    <span>PASS表示正常，<i class="orange">！</i>橙色感叹号表示故障</span>
+		    
+		</div>
+		<div class="car-lr-img vehicle-chassis">
+		  	<div class="vehicle-chassis-item vehicle-chassis-item-one">
+		  		<div class="ehicle-chassis-line-x"></div>
+		  		
+		  	</div>
+		  	<div class="vehicle-chassis-item vehicle-chassis-item-two">
+		  		<div class="ehicle-chassis-line-x"></div>
+		  		<div class="ehicle-chassis-line-y"></div>
+		  	</div>
+		  	<div class="vehicle-chassis-item vehicle-chassis-item-three">
+		  		<div class="ehicle-chassis-line-x"></div>
+		  		<div class="ehicle-chassis-line-y"></div>
+		  	</div>
+		  	<div class="vehicle-chassis-item vehicle-chassis-item-four">
+		  		<div class="ehicle-chassis-line-x"></div>
+		  		<div class="ehicle-chassis-line-y"></div>
+		  	</div>
+		  	<div class="vehicle-chassis-item vehicle-chassis-item-five">
+		  		<div class="ehicle-chassis-line-x"></div>
+		  		<div class="ehicle-chassis-line-y"></div>
+		  	</div>
+		  	<div class="vehicle-chassis-item vehicle-chassis-item-six">
+		  		<div class="ehicle-chassis-line-x"></div>
+		  		<div class="ehicle-chassis-line-y"></div>
+		  	</div>
+		  	<div class="vehicle-chassis-text vehicle-chassis-text-one">半轴无变形，防尘套无破损<span>	PASS</span></div>
+		  	<div class="vehicle-chassis-text vehicle-chassis-text-two">半轴无变形，防尘套无破ggggg损<span>	PASS</span></div>
+		  	<div class="vehicle-chassis-text vehicle-chassis-text-three">半轴无变形，防尘套无破损gg<span>	PASS</span></div>
+		  	<div class="vehicle-chassis-text vehicle-chassis-text-four">半轴无变形，防尘套无破损gg<span>	PASS</span></div>
+		  	<div class="vehicle-chassis-text vehicle-chassis-text-five">半轴无变形，防尘套无破损g<span>	PASS</span></div>
+		  	<div class="vehicle-chassis-text vehicle-chassis-text-six">半轴无变形，防尘套无破损ggg<span>	PASS</span></div>
+		</div>
+	<!--车辆底盘测验结束-->
+	<!--车辆路试检测开始-->
+		<div class="car-report-tit ">
+		车辆路试检测
+		<span>车辆路试无异常，可以使用</span>
+		</div>
+		<div class="img-discoraption vehicle-road-test">
+			<span>图示说明:</span>
+			
+		    <span><i class="icon iconfont">&#xe601;</i>表示正常，<i class="orange">！</i>橙色感叹号表示故障</span>
+		    
+		</div>
+		<div class="car-lr-img vehicle-road-test-img">
+			
+			<div class="vehicle-road-test vehicle-road-test-one">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">	
+				</div>
+				<div class="coordinate-parts-line-x">	
+				</div>
+			</div>
+			<div class="vehicle-road-test vehicle-road-test-two">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">	
+				</div>
+				<div class="coordinate-parts-line-x">	
+				</div>
+				<div class="coordinate-parts-line-x coordinate-parts-line-x-1">	
+				</div>
+				<div class="coordinate-parts-line-x coordinate-parts-line-x-2">	
+				</div>
+			</div>
+			<div class="vehicle-road-test vehicle-road-test-three">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">	
+				</div>
+				<div class="coordinate-parts-line-x">	
+				</div>
+				<div class="coordinate-parts-line-x-1 coordinate-parts-line-x">	
+				</div>
+			</div>
+			<div class="vehicle-road-test vehicle-road-test-four">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">
+					
+				</div>
+				<div class="coordinate-parts-line-x">
+				</div>
+				
+			</div>
+			<div class="vehicle-road-test vehicle-road-test-five">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">	
+				</div>
+				<div class="coordinate-parts-line-x">	
+				</div>
+			</div>
+			<div class="vehicle-road-test vehicle-road-test-six">
+				<i class="icon iconfont">&#xe60d;</i>
+				<div class="coordinate-parts-line-y">
+				</div>
+				<div class="coordinate-parts-line-x">	
+				</div>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-one">
+				<i class="icon iconfont">&#xe601;</i>
+				<span>右前翼子板内衬版、边梁hhhh</span>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-two-a">
+				<i class="icon iconfont">&#xe601;</i>
+				<span>右前翼子板内衬版、边梁</span>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-two-b">
+				<i class="icon iconfont">&#xe601;</i>
+				<span>右前翼子板内衬版、边梁</span>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-two-c">
+				<i class="icon iconfont">&#xe601;</i>
+				<span>右前翼子板内衬版、边梁</span>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-three-a">
+				<i class="icon iconfont">&#xe601;</i>
+				<span>右前翼子板内衬版、边梁右前翼子板内衬版、边梁右前翼子板内衬版、边梁</span>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-three-b">
+				<i class="icon iconfont">&#xe601;</i>
+				<span>右前翼子板内衬版、边梁hhhh</span>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-five">
+				<i class="icon iconfont">&#xe601;</i>
+				<span>右前翼子板内衬版、</span>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-six">
+				<i class="icon iconfont">&#xe601;</i>
+				<span>右前翼子板内衬版hhhhhhhh</span>
+			</div>
+			<div class="coordinate-parts-six-line-y-1">	
+				<div class="coordinate-parts-six-line-x-1">
+					
+				</div>
+				
+				<div class="coordinate-parts-six-line-x-2"></div>
+				<div class="coordinate-parts-six-line-x-2"></div>
+				<div class="coordinate-parts-six-line-x-2"></div>
+				<div class="coordinate-parts-six-line-x-2"></div>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-four">
+						
+						<span>右前翼子板内衬版hhhhhhhh</span>
+						<i class="icon iconfont">&#xe601;</i>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-four-a">
+						
+						<span>右前翼子板内衬版hhhhhhhh</span>
+						<i class="icon iconfont">&#xe601;</i>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-four-b">
+						
+						<span>右前翼子板内衬版hhhhhhhh</span>
+						<i class="icon iconfont">&#xe601;</i>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-four-c">
+						
+						<span>右前翼子板内衬版hhhhhhhh</span>
+						<i class="icon iconfont">&#xe601;</i>
+			</div>
+			<div class="coordinate-parts-text vehicle-road-test-text-four-d">
+						
+						<span>右前翼子板内衬版hhhhhhhh</span>
+						<i class="icon iconfont">&#xe601;</i>
+			</div>
+		</div>
+	<!--车辆路试检测结束-->
+	<!--维修保养开始-->
+		<div class="car-report-tit">
+			车辆维修保养履历
+			<span>您需要登录才能查看此信息
+				  <a href=""# class="login">登录</a>
+			</span>
+			</div>
+			<div class="img-discoraption car-maintenance">
+				<span>说明:</span>
+				<div>1、认证报告目的：诚信源于透明，秉着公开，透明、规范的原则，为消费者提供更多放心，更多选择的二手车服务。</div>
+				<div>1、认证报告目的：诚信源于透明，秉着公开，透明、规范的原则，为消费者提供更多放心，更多选择的二手车服务。</div>
+			    
+			    
+			</div>
+			
+			<div class="car-configuration-parameters">
+				<h2>车辆参数配置</h2>
+				<div class="car-configuration-parameters-btn">
+					 <a href="javascript:;" class="active">基本参数</a>
+					 <a href="javascript:;">基本参数</a>
+					 <a href="javascript:;">基本参数</a>
+					 <a href="javascript:;">基本参数</a>
+					 <a href="javascript:;">基本参数</a>
+					 <a href="javascript:;">基本参数</a>
+					 <a href="javascript:;">基本参数</a>
+					
+				</div>
+				<table class="table-car-Vehicle table-car-Vehicle-active" cellpadding="0" cellspacing="0">
+					<tr>
+						<th class="padding40">厂商指导价（元）01</th>
+						<th>45.92万</th>
+						<th>厂商</th>
+						<th class="width254">大众</th>
+						
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+				</table>
+				<table class="table-car-Vehicle" cellpadding="0" cellspacing="0">
+					<tr>
+						<th class="padding40">厂商指导价（元）02</th>
+						<th>45.92万</th>
+						<th>厂商</th>
+						<th class="width254">大众</th>
+						
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+				</table>
+				<table class="table-car-Vehicle" cellpadding="0" cellspacing="0">
+					<tr>
+						<th class="padding40">厂商指导价（元）03</th>
+						<th>45.92万</th>
+						<th>厂商</th>
+						<th class="width254">大众</th>
+						
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+				</table>
+				<table class="table-car-Vehicle" cellpadding="0" cellspacing="0">
+					<tr>
+						<th class="padding40">厂商指导价（元）04</th>
+						<th>45.92万</th>
+						<th>厂商</th>
+						<th class="width254">大众</th>
+						
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+				</table>
+				<table class="table-car-Vehicle" cellpadding="0" cellspacing="0">
+					<tr>
+						<th class="padding40">厂商指导价（元）05</th>
+						<th>45.92万</th>
+						<th>厂商</th>
+						<th class="width254">大众</th>
+						
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+				</table>
+				<table class="table-car-Vehicle" cellpadding="0" cellspacing="0">
+					<tr>
+						<th class="padding40">厂商指导价（元）06</th>
+						<th>45.92万</th>
+						<th>厂商</th>
+						<th class="width254">大众</th>
+						
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+				</table>
+				<table class="table-car-Vehicle" cellpadding="0" cellspacing="0">
+					<tr>
+						<th class="padding40">厂商指导价（元）07</th>
+						<th>45.92万</th>
+						<th>厂商</th>
+						<th class="width254">大众</th>
+						
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+					<tr>
+						<td class="padding40">厂商指导价（元）</td>
+						<td>45.92万</td>
+						<td>厂商</td>
+						<td class="width254">大众</td>
+					</tr>
+				</table>
+				
+			</div>
+	<!--维修保养结束-->
+	
+	</div>
+	<!--车辆认证报告结束-->
+	<!--底部开始-->
+	  <div class="footer">
+	  	<div class="footer-inner">
+	  	  <div class="footer-list">
+	  	  	  <span>关于我们</span>
+	  	  	  <a href="#">公司介绍</a>
+	  	  	  <a href="#">加入我们</a>
+	  	  	  <a href="#">联系我们</a>
+	  	  </div> 
+	  	  <div class="footer-list">
+	  	  	  <span>交易流程</span>
+	  	  	  <a href="#">买车流程</a>
+	  	  	  <a href="#">卖车流程</a>
+	  	  	  <a href="#">异地购车</a>
+	  	  </div> 
+	  	  <div class="footer-list">
+	  	  	  <span>购车指南</span>
+	  	  	  <a href="#">购车帮助</a>
+	  	  	  <a href="#">收车帮助</a>
+	  	  	  <a href="#">外迁查询</a>
+	  	  </div>
+	  	  <div class="footer-right">
+				<div class="appcode">
+					<em>手机版</em>
+					<img src="img/app.png" alt="">
+				</div>
+				<div class="appcode">
+					<em>APP</em>
+					<img src="img/app.png" alt="">
+				</div>
+	  	  </div>
+	  	  
+	  	  <div class="footer-line"></div>
+	  	  <div class="about-link">友情链接：
+	  	  	  <a href="#">信融货</a>
+	  	  	  <span>|</span>
+	  	  	  <a href="#">爱卡</a>
+	  	  	  <span>|</span>
+	  	  	  <a href="#">车车</a>
+	  	  	 
+	  	  </div>
+	  	  <div class="bq">版权所有版权所有版权所有版权所有版权所有版权所有</div>
+	  	 </div>
+	  </div>
+	<!--底部结束-->
+</body>
+</html>

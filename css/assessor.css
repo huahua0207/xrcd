@@ -1,0 +1,595 @@
+@import url(base.css);
+/*头部开始*/
+a,button:focus{outline:none;}
+.qan_header{
+    width:100%;
+    height:37px;
+    background: #f2f2f3;
+}
+.qan_header-inner{
+    width:1200px;
+    height:100%;
+
+    margin:0 auto;
+}
+.qan_header-inner a{
+    font-size:12px;
+    color:#606060;
+    line-height:37px;
+
+}
+
+.qan_header-inner .qan_header-inner-left{
+    float: left;
+}
+.qan_header-inner .qan_header-inner-right{
+    float: right;
+}
+.qan_header-inner a.hot{
+    color:#d23e3e;
+}
+.qan_header-inner span{
+    font-size:13px;
+    color:#a9a9aa;
+    line-height:20px;
+}
+.qan_header-inner a:hover{
+    color:#d23e3e;
+    text-decoration:underline;
+}
+.qan_header-inner a:hover i{
+    color:#d23e3e;
+}
+.qan_header-inner-left i.phone{
+  font-size: 18px;
+}
+/*头部结束*/
+/*搜索拦开始*/
+.search-box{
+    width:1200px;
+    height:60px;
+    
+    margin:0 auto;
+    margin-top:37px;
+    /*overflow: hidden;*/
+   
+
+}
+.logo{
+    float: left;
+}
+.logo-text span{
+    font-size: 16px;
+    color:#c91623;
+    letter-spacing: 1px;
+    margin-top:8px;
+    display: block;
+   
+   
+
+}
+.logo-text{
+    margin-left:5px;
+    float: left;
+   
+}
+em{
+     font-style:normal;
+}
+.logo-text em{
+     font-size: 14px;
+     
+     color:#747474;
+     line-height: 12px;
+}
+.search-box a.logo{
+    width:58px;
+    display: block;
+    height:58px;
+    float: left;
+}
+.search-box a.logo img{
+    width:100%;
+    height:100%;
+    line-height: 25px;
+    display: block;
+}
+.logo-text a{
+    color:#c91724;
+    line-height: 27px;
+    display: block;
+
+}
+div.slogan{
+    float: left;
+    color:#fb3838;
+    margin-top:17px;
+    margin-left:15px;
+    font-size: 15px;
+    _margin-left:7px;
+}
+.search{
+    float: right;
+    width: 592px;
+    height:55px;
+    box-sizing:border-box;
+    border:1px solid #cccccc;
+}
+.search form input{
+    border:0px;
+}
+.search form input[type=text]{
+  float: left;
+  line-height:53px;
+  width: 378px;
+  height:53px;
+  padding-left:24px;
+  box-sizing:border-box;
+  color:#747474;
+  outline: none;
+  font-size:15px;
+
+}
+.search form input[type=submit]{
+    width: 105px;
+    height: 55px;
+    font-size: 19px;
+    margin-top: -1px;
+    color: #fff;
+    background-color: #ea3f31;
+    float: right;
+
+}
+.search-select{
+    float: left;
+    width: 106px;
+    text-align: center;
+    position: relative;
+    height: 54px;
+    line-height: 53px;
+    border-right:1px solid #a3a3a3;
+}
+.search-select a{
+    color: #747474;
+   
+}
+.search-select a>i{
+    font-size:14px;
+}
+.search-select-list{
+      border: 1px solid #ccc;
+    border-top: 0px;
+    position: absolute;
+    top:54px;
+    left:0px;
+    float: left;
+    display: none;
+    width: 106px;
+    border-bottom:0px; 
+    margin-left: -1px;
+}
+i.rjt{
+    position: absolute;
+    right:9px;
+}
+.search-select-list a{
+  width: 100%;
+  height: 52px;
+  text-align: center;
+  border-bottom:1px solid #ccc;
+  line-height: 53px;
+  background: #fff;
+  display: inline-block;
+
+}
+.search-select-list a:hover{
+    color:#c91623;
+}
+.buycar{
+    display: inline-block;
+    float: left;
+    position: relative;
+    /*width: 70px;*/
+   
+
+    text-align: center;
+    
+   
+}
+.buycar a:hover{
+    color: :#fff;
+}
+input.submit{
+  cursor: pointer;
+}
+.buycar-list{
+  position: absolute;
+    z-index: 2;
+    width: 117px;
+    top: 38px;
+    left: 0px;
+    
+   
+    display: none;
+    border-top:0px;
+
+}
+.buycar-list a{
+    width: 57px;
+   display: block;
+   font-size: 16px;
+   /* height: 60px;
+    line-height: 60px;*/
+   
+    text-align: center;
+}
+.buycar-list a:hover{
+   color:#c91623;
+}
+.buycar a:hover i.icon{
+    color:#c91623;
+}
+.hot-search{
+  font-size: 11px;
+  color:#747474;
+  float: left;
+  margin-top:10px;
+  margin-left:26px;
+
+}
+.hot-search a{
+     color:#747474;
+     margin-right:8px;
+}
+.hot-search a:hover{
+      color:#d02424;
+ }
+/*搜索栏结束*/
+/*导航栏开始*/
+.nav-out{
+    width: 100%;
+    height: 60px;
+    margin-top:45px;
+    border-bottom:1px solid #f2f2f3;
+}
+.nav{
+  width: 1200px;
+  height:60px;
+  margin:0 auto;
+
+}
+.nav-left a{
+    font-size: 16px;
+    color:#333;
+    padding: 10px 20px;
+    /*margin-right: 18px;*/
+    float: left;  
+}
+.nav-left{
+    float: left;
+    margin-left:197px;
+}
+.nav-right{
+     float: right;
+}
+.nav-left a.hot{
+     color:#cb1e2b;
+}
+.nav a:hover{
+   color:#cb1e2b; 
+}
+.nav a:hover i{
+     color:#cb1e2b;
+}
+.nav a.ml37{
+    margin-right: 37px;
+ }
+ .nav a.ml74{
+     margin-right: 74px;
+ }
+ .nav a i.icon{
+    color:#aeaeae;
+ }
+ .nav-right i{
+     float: left;
+     font-size: 36px;
+
+ }
+ .tel-right{
+     float: left;
+     margin-left:10px;
+ }
+ a.tel{
+     font-size: 20px;
+     color:#c91623;
+     margin-bottom:4px;
+     display: block;
+ }
+ .nav-right i.telicon{
+    color:#c91e2b;
+ }
+ .tel-right div{
+     font-size: 12px;
+     color:#cecece;
+ }
+ .qqcon{
+    float: left;
+     margin-left:17px;
+     line-height: 40px;
+     width: 36px;
+     
+ }
+.qqcon img{
+     float: left;
+     width: 100%;
+     margin-right:2px;
+  }
+.qqcon img:hover{
+   cursor: pointer;
+}
+span.QQconstract{
+      float: left;
+      line-height: 53px;
+      color:#adadad;
+
+}
+/*导航栏结束*/
+/*汽车展示图片开始*/
+.show-carimg{
+     width: 1200px;
+     margin:0 auto;
+     overflow: hidden;
+     padding-bottom:50px;
+}
+.show-carimg-title{
+     height: 84px;
+     line-height: 84px;
+     font-size: 22px;
+     color:#333;
+     padding-left:6px;
+     box-sizing:border-box;
+}
+.show-carimg-list{
+      float: left;
+      position: relative;
+      text-align: center;
+      margin-right:40px;
+      width: 357px;
+
+}
+.show-carimg-list i.remove{
+     color:#ea3f31;
+     position: absolute;
+     right:10px;
+     top:10px;
+     font-size: 24px;
+}
+.show-carimg-list img{
+     height: 303px;
+     width: 100%;
+     margin-bottom:14px;
+}
+.add-imgshow{
+      width: 395px;
+      float: right;
+      height: 298px;
+      border:1px solid #ea3f31;
+}
+.addimg{
+     width: 100%;
+     height: 61px;
+     letter-spacing: 1px;
+     
+     line-height: 61px;
+     text-align: center;
+     background: #ea3f31;
+    
+}
+.addimg-box{
+      width: 168px;
+      margin:0 auto;
+      font-size: 20px;
+      color:#fff;
+      text-align: right;
+}
+.addimg img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 14px;
+     
+}
+.uploadcarImg {
+      margin-top:33px;
+}
+.uploadcarImg label{
+ width: 323px;
+ height: 42px;
+ position: relative;
+ line-height: 42px;
+ margin:0 auto;
+
+ display: block;
+ margin-bottom:20px;
+
+}
+.uploadcarImg label span{
+      float: left;
+      font-size: 16px;
+      
+}
+.uploadcarImg label input{
+     float: right;
+     text-align: center;
+     width: 227px;
+     height: 38px;
+     border:1px solid #b2b2b2;
+     outline: none;
+     color:#8c8c8c;
+}
+.uploadcarImg label input[type=file]{
+      opacity: 0;
+}
+.file-box{
+    width: 227px;
+     height: 38px;
+     border:1px solid #b2b2b2;
+     position: absolute;
+     right:0;
+     top:0px;
+     color:#8c8c8c;
+
+}
+.uploadcarImg label button{
+      width: 116px;
+      height: 33px;
+      background:#ea3f31;
+      color:#fff;
+      border:0px;
+}
+.uploadcarImg label button.yes{
+    float: left;
+ }
+.uploadcarImg label button.no{
+      float: right;
+ }
+/*汽车展示图片结束*/
+.bgf2{
+      background: #f2f2f3;
+      height: 15px;
+}
+/*新增保养记录开始*/
+.addby{
+     width: 1200px;
+     margin:0 auto;
+     overflow: hidden;
+}
+.addbyshow{
+      float: left;  
+
+}
+form.uploadbyjl label input{
+      float: left;
+      margin-left:19px;
+}
+form.uploadbyjl label  input.Maintenance-time{
+      width: 156px;
+}
+form.uploadbyjl label  input.km{
+    width: 181px;
+}
+form.uploadbyjl input[type=button]{
+   width: 58px;
+   height: 40px;
+   float: right;
+   background: #fff;
+}
+.km-box em{
+     color:#666;
+}
+input.check{
+    width: 13px!important;
+    float: left;
+    margin-top:15px;
+    margin-right:5px;
+    vertical-align: bottom;
+    height: 13px!important;
+}
+.normal{
+      float: left;
+}
+#ui-datepicker-div{
+     top: 876px!important;
+    left: 232.5px!important;
+}
+form.uploadbyjl i.date{
+     position: absolute;
+     right:20px;
+     top:0px;
+     font-size: 30px;
+     color:#e93f31;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    width: 45%!important;
+}
+/*新增保养记录结束*/
+/*底部开始*/
+.footer-inner{
+     width: 1200px;
+     margin:0 auto;
+     margin-top:47px;
+     padding-bottom:33px;
+
+    
+
+}
+.footer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+     background: #f2f2f3;
+}
+.footer-list{
+     width: 215px;
+     display: inline-block;
+     text-align: left;
+
+}
+
+.footer-list span{
+      display: block;
+     
+      color:#666;
+      font-size: 19px;
+}
+.footer-list a{
+     display: block;
+     color:#898989;
+    margin-top:15px;
+     font-size:14px;
+}
+.footer-list a:hover{
+      color:#ea3f31;
+      text-decoration:underline;
+}
+.footer-line{
+      width: 1200px;
+      height: 1px;
+      background: #d9d9da;
+      margin-top:30px;
+}
+.footer-right{
+      float: right;
+}
+.appcode{
+     display: inline-block;
+     margin-left:48px;
+     text-align: center;
+}
+.appcode em{
+     color:#acacad;
+     font-size: 15px;
+     line-height: 30px;
+     display: block;
+
+}
+.about-link,.about-link a{
+  font-size:14px ;
+  line-height: 51px;
+  color:#898989;
+}
+.about-link span{
+    font-size: 13px;
+    color:#a9a9aa;
+ }
+ .about-link a:hover{
+      color:#ea3f31;
+      text-decoration:underline;
+      
+ }
+ div.bq{
+    text-align: center;
+    font-size: 13px;
+    color:#929292;
+   }
+/*底部结束*/

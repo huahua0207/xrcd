@@ -1,0 +1,12 @@
+body,h1,h2,h3,h4,h5,h6,form,input,ul,ol,li,html{margin:0;padding:0;list-style:none;}
+*{font-family: Arial,"微软雅黑";color:#323232}
+
+a{text-decoration:none;}
+img {border:none;}
+frameset,frame{
+    margin:0;
+    padding:0;
+    border-width: 0px;
+
+    border-style: none;
+}
